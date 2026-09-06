@@ -1,0 +1,26 @@
+{
+  "format": "TGPM",
+  "version": 1,
+  "created": "2026-09-05T12:00:00.000Z",
+  "kdf": {
+    "name": "PBKDF2",
+    "hash": "SHA-256",
+    "iterations": 600000,
+    "salt": "AAECAwQFBgcICQoLDA0ODw"
+  },
+  "combine": {
+    "name": "HKDF",
+    "hash": "SHA-256",
+    "salt": "EBESExQVFhcYGRobHB0eHw",
+    "info": "TGPM-KEK-v1"
+  },
+  "wrap": {
+    "name": "AES-GCM",
+    "iv": "AAECAwQFBgcICQoL",
+    "ciphertext": "AAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8gISIjJCUmJygpKissLS4v"
+  },
+  "vault": {
+    "name": "AES-GCM",
+    "iv": "DA0ODxAREhMUFRYX"
+  }
+}
