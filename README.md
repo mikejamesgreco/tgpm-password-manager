@@ -1,4 +1,4 @@
-# TGPM - Password Manager
+# TGPM Password Manager
 
 **The Greco Password Manager**
 
@@ -526,6 +526,6 @@ License information will be added to the repository's `LICENSE` file.
 
 **Michael J. Greco**
 
-TGPM - Password Manager — **The Greco Password Manager**
+TGPM Password Manager — **The Greco Password Manager**
 
 © mikejamesgreco.me LLC. All rights reserved.
